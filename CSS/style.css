@@ -1,29 +1,33 @@
-* {
-  padding: 0px;
-  margin: 0px;
+:root {
+  --background-color: orange;
 }
 
-html {
-  font-size: 12px;
-  font-family: tahoma;
+body {
+  background-color: grey;
 }
 
-section.sectionForm {
-  padding: 80px 10%;
+p {
+  font-size: 2rem;
+  background-color: green;
+  cursor: pointer;
+}
+h1 {
+  color: red;
+  background-color: var(--background-color);
 }
 
-section.sectionForm form {
-  width: 500px;
-  margin: 0 auto;
+
+p:hover {
+  background-color: red;
+  transition: background-color 0.2s;
 }
-section.sectionForm form input,
-section.sectionForm form textarea,
-section.sectionForm form button {
-  width: 100%;
+
+input {
+  background-color: blueviolet;
+
 }
-footer {
-  font-size: 1.2em;
-  text-align: center;
-  padding: 30px 10px;
-  border-top: 1px solid #e9e9e9;
+.input:focus {
+  outline-color: chartreuse;
+  background-color: aqua;
+  outline: 2px solid red
 }
