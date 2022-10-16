@@ -1,5 +1,5 @@
 :root {
-  --background-color: orange;
+  --background-color: white;
 }
 
 body {
@@ -23,7 +23,8 @@ p:hover {
 }
 
 input {
-  background-color: blueviolet;
+  background-color: var(--background-color)
+  
 
 }
 .input:focus {
